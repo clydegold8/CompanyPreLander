@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Moebius - Casual</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Load required Bootstrap and BootstrapVue CSS -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/bootstrap-vue.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<!-- Load polyfills to support older browsers -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver"></script>
+	<!-- Load Vue followed by BootstrapVue -->
+	<script src="js/vue.min.js"></script>
+	<script src="js/bootstrap-vue.min.js"></script>
+	<script src="js/vue.js"></script>
+	<!-- Load the following for BootstrapVueIcons support -->
+	<script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue-icons.min.js"></script>
+</head>
+<body>
+	<b-container id="app" fluid>
+		<b-row class="header-bg">
+			<b-col cols="12">
+			  <b-navbar toggleable="lg" variant="faded" type="light">
+			    <b-navbar-brand href="#">
+			    	<img src="img/moebius-logo-color.png" alt="moebius-logo">
+			    </b-navbar-brand>
+
+			    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+			    <b-collapse id="nav-collapse" is-nav>
+			      <b-navbar-nav class="ml-auto">
+			        <b-nav-item href="#">HOME</b-nav-item>
+			        <b-nav-item href="#">SERVICE</b-nav-item>
+			        <b-nav-item href="#">ABOUT</b-nav-item>
+			        <b-nav-item href="#">JOBS</b-nav-item>
+			        <b-nav-item href="#">CONTACT US</b-nav-item>
+			      </b-navbar-nav>
+			    </b-collapse>
+			  </b-navbar>
+			</b-col>
+			<b-col cols="12" class="headingOne">
+				<div class="containerBubble"> <b-badge class="helloBubble"> Hello </b-badge>  Welcome to Moebius </div>
+			</b-col>
+			<b-col cols="12" class="headingTwo">
+				<h1>REACH YOUR <br> DESTINATION,</h1>
+			</b-col>
+			<b-col cols="12">
+				<div class="gradLine"></div>
+			</b-col>
+			<b-col cols="12" class="headingThree">
+				<p>We're email, e-commerce and fintech experts.<br>
+				We have a proven track record in delivering <br> complex solutions to diverse industries.</p>
+			</b-col>
+		</b-row>
+		<b-row>
+			<b-col cols="12" class="brandContainer">
+				<div>
+					<b-img src="img/group@2x.png" alt="Group image"></b-img>
+					<b-img src="img/hydropay-icon@2x.png" alt="hydropay-icon image"></b-img>
+					<b-img src="img/payento-icon@2x.png" alt="payento-icon image"></b-img>
+					<b-img src="img/logo-normal@2x.png" alt="logo-normal image"></b-img>
+					<b-img src="img/asset-1@2x.png" alt="asset-1 image"></b-img>
+				</div>
+				<hr>
+			</b-col>
+		</b-row>
+		<b-row>
+			<b-col cols="12" class="text-center servicesContainer">
+				<h2>OUR SERIVCES</h2>
+				<p>Say something about our services will goes here</p>
+			</b-col>
+			<b-col cols="5" class="servicesImage">
+				<b-img src="img/shutterstock-741473680.png" alt="Group image"></b-img>
+			</b-col>
+			<b-col cols="6" md="12" sm="12" lg="6" class="servicesCards">
+				<b-card-group columns>
+				  <b-card
+				    title="Enterprise Software"
+				    img-src="img/001-interface@2x.png"
+				    img-alt="Enterprise Software"
+				    tag="article"
+				    style="max-width: 20rem;"
+				  >
+				    <b-card-text>
+				      We will work with you to design, develop and implement a customized Enterprise Software Solution based on your needs and goals.
+				    </b-card-text>
+				  </b-card>
+  				  <b-card
+				    title="Mobile Apps"
+				    img-src="img/002-smartphone@2x.png"
+				    img-alt="Moblie Apps"
+				    tag="article"
+				    style="max-width: 20rem;"
+				  >
+				    <b-card-text>
+				      Our development team helps you to achieve your goals by designing & building custom mobile apps.
+				    </b-card-text>
+				  </b-card>
+				  <b-card
+				    title="E-commerce Website"
+				    img-src="img/003-computer@2x.png"
+				    img-alt="E-commerce Website"
+				    tag="article"
+				    style="max-width: 20rem;"
+				  >
+				    <b-card-text>
+				      We build intelligent digital solutions & shopping experiences to meet ambitious sales goals for e-commerce businesses.
+				    </b-card-text>
+				  </b-card>
+				  <b-card
+				    title="Web Development"
+				    img-src="img/004-tablet@2x.png"
+				    img-alt="Web Development"
+				    tag="article"
+				    style="max-width: 20rem;"
+				  >
+				    <b-card-text>
+				      We build web apps or work together with your development team to create a fully responsive website that stands out.
+				    </b-card-text>
+				  </b-card>
+				</b-card-group>
+			</b-col>
+			<b-col cols="1" class="servicesCards">
+			</b-col>
+			<b-col cols="12"><hr></b-col>
+		</b-row>
+		<b-row>
+			<b-col cols="12" class="text-center formCover">
+				<h2>WE'VE GOT YOU COVERED</h2>
+				<p class="text-center">
+					We’ve combined our technical expertise and proven knowledge of latest trends by developing solutions with a better user-experience and measurable results for all products- new or existing. If you’re looking for solutions for email, we’re a one-stop-shop- from delivery service to reputation management.
+				</p>
+				<p>
+					Address : 8th Flr, Skyrise 3, Jose Ma. Del Mar St, Cebu Asiatown IT Park, Cebu City
+				</p>
+			</b-col>
+		</b-row>
+		<b-row>
+			<b-col cols="10" xs="12" md="12" sm="12" lg="10" xl="10" class="contactForm">
+			    <b-form  @submit="onSubmit">
+			      <div>
+  				      <label for="feedback-user-Name">Your Name</label>
+				      <b-input placeholder="Enter your Name" v-model="userName" :state="validation" id="feedback-user-Name"></b-input>
+				      <b-form-invalid-feedback :state="validation">
+				        Your user Name must be 5-12 characters long.
+				      </b-form-invalid-feedback>
+				      <b-form-valid-feedback :state="validation">
+				        Looks Good.
+				      </b-form-valid-feedback>
+			      </div>
+			      <div class="inputArea">
+  	  			      <label for="feedback-user-Email">Your Email</label>
+				      <b-input placeholder="Enter your Email" v-model="userEmail" :state="validationEmail" id="feedback-user-Email"></b-input>
+				      <b-form-invalid-feedback :state="validationEmail">
+				        Enter a valid Email.
+				      </b-form-invalid-feedback>
+				      <b-form-valid-feedback :state="validationEmail">
+				        Looks Good.
+				      </b-form-valid-feedback>
+			      </div>
+  			      <div class="inputArea">
+  	  			      <label for="feedback-user-Message">Your Message</label>
+  	  			          <b-form-textarea
+					      id="feedback-user-Message"
+					      v-model="userMessage"
+					      :state="validationMessage"
+					      placeholder="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. : Not active"
+					      rows="3"
+					      max-rows="6"
+					    ></b-form-textarea>
+				      <b-form-invalid-feedback :state="validationMessage">
+				        Your user Name must be 5 above characters long.
+				      </b-form-invalid-feedback>
+				      <b-form-valid-feedback :state="validationMessage">
+				        Looks Good.
+				      </b-form-valid-feedback>
+			      </div>
+			       <b-button :disabled="!formValidation" :state="btnState" @click="showDismissibleAlert=true" class="float-right contactSubmit" type="submit">CONTACT US</b-button>
+			      <div class="confirmationBox">
+			      	    <b-alert v-model="showDismissibleAlert" variant="success" dismissible>
+					      Your Message has been sent <br>
+					      Name: {{dataUser.name}} <br>
+					      Email: {{dataUser.email}} <br>
+					      Message: {{dataUser.message}}
+					    </b-alert>
+			      </div>	 
+		     	</b-form>
+			</b-col>
+			<b-col cols="2" xs="12" md="12" sm="12" lg="2" xl="2" class="mapBox">
+				<div class="map-container">
+					<b-img src="img/google-map.jpg" alt="Group image"></b-img>
+				</div>
+			</b-col>
+			<b-col cols="12">
+				<hr>
+			</b-col>
+		</b-row>
+		<b-row>
+			<b-col cols="12" class="text-center teamHeading">
+				<h2>MEET OUR TEAM IN MOEBIUS</h2>
+				<p>Say something about team member will goes here</p>
+			</b-col>
+			<b-col cols="12" class="teamMembers">
+				<b-card-group columns>
+					  <b-card
+					    title="Walter Bowers"
+					    img-src="img/walterbowers.jpg"
+					    img-alt="Walter Bowers"
+					    img-top
+					    tag="article"
+					    style="max-width: 17rem;"
+					  >
+					    <b-card-text>
+					      HR Manager
+					    </b-card-text>
+					  </b-card>
+  					  <b-card
+					    title="Joel Underwood"
+					    img-src="img/joelunderwood.jpg"
+					    img-alt="Joel Underwood"
+					    img-top
+					    tag="article"
+					    style="max-width: 17rem;"
+					  >
+					    <b-card-text>
+					      Data Entry
+					    </b-card-text>
+					  </b-card>
+  					  <b-card
+					    title="Edward Thompson"
+					    img-src="img/edwardthompson.jpg"
+					    img-alt="Edward Thompson"
+					    img-top
+					    tag="article"
+					    style="max-width: 17rem;"
+					  >
+					    <b-card-text>
+					      Chief Information Officer
+					    </b-card-text>
+					  </b-card>
+					  <b-card
+					    title="Lillie Schwartz"
+					    img-src="img/lillieschwartz.jpg"
+					    img-alt="Lillie Schwartz"
+					    img-top
+					    tag="article"
+					    style="max-width: 17rem;"
+					  >
+					    <b-card-text>
+					     Technical Specialist
+					    </b-card-text>
+					  </b-card>
+  					  <b-card
+					    title="Rey Newman"
+					    img-src="img/reynewman.jpg"
+					    img-alt="Rey Newman"
+					    img-top
+					    tag="article"
+					    style="max-width: 17rem;"
+					  >
+					    <b-card-text>
+					      Web Developer
+					    </b-card-text>
+					  </b-card>
+  					  <b-card
+					    title="Ronald Vasquez"
+					    img-src="img/ronaldvasquez.jpg"
+					    img-alt="Ronald Vasquez"
+					    img-top
+					    tag="article"
+					    style="max-width: 17rem;"
+					  >
+					    <b-card-text>
+					      Web Developer
+					    </b-card-text>
+					  </b-card>
+  					  <b-card
+					    title="Sallie Santos"
+					    img-src="img/salliesantos.jpg"
+					    img-alt="Sallie Santos"
+					    img-top
+					    tag="article"
+					    style="max-width: 17rem;"
+					  >
+					    <b-card-text>
+					      UX Designer & UI Developer
+					    </b-card-text>
+					  </b-card>
+  					  <b-card
+					    title="Winifred Abbott"
+					    img-src="img/winifredabbott.jpg"
+					    img-alt="Winifred Abbott"
+					    img-top
+					    tag="article"
+					    style="max-width: 17rem;"
+					  >
+					    <b-card-text>
+					      UX Designer & UI Developer
+					    </b-card-text>
+					  </b-card>
+				</b-card-group>
+			</b-col>
+		</b-row>
+		<b-row>
+			<b-col cols="12" class="subcribeContainer">
+				<div class="subcribeBox">
+					<b-form  @submit="onSubmit">
+						<div class="row">
+				      	    <div class="inputAreaLeft col-9">
+			  			      <label for="feedback-user-Email">SUBSCRIBE FOR FREE RESOURCES</label>
+						      <b-input placeholder="Enter your Email" v-model="userSEmail" :state="validationSEmail" id="feedback-user-Email"></b-input>
+						      <b-form-invalid-feedback :state="validationSEmail">
+						        Enter a valid Email.
+						      </b-form-invalid-feedback>
+						      <b-form-valid-feedback :state="validationSEmail">
+						        Looks Good.
+						      </b-form-valid-feedback>
+					      </div>
+					      <div class="inputAreaRight col-3 text-center">
+					      	<b-button @click="showDismissibleAlertS=true" :disabled="!formSValidation" :state="btnStateS" class="subcribeSubmit" type="submit">SUBSCRIBE</b-button>
+					      </div>
+						</div>
+				      	<div class="confirmationBox">
+				      	    <b-alert v-model="showDismissibleAlertS" variant="success" dismissible>
+						      You are now successfully subscribed to our services <br>
+						      Email: {{dataUser.emailS}} <br>
+						    </b-alert>
+				      </div>
+					</b-form>
+				</div>
+			</b-col>
+		</b-row>
+		<b-row>
+			<b-col cols="12" class="footerContainer">
+				<div class="footerArea">
+					  <b-navbar variant="faded" type="light">
+					    <b-navbar-brand href="#">
+					    	<img src="img/moebius-logo-white@2x.png" alt="moebius-logo">
+					    </b-navbar-brand>
+
+				      <b-navbar-nav class="ml-auto">
+					        <b-nav-item href="#">HOME</b-nav-item>
+					        <b-nav-item href="#">SERVICE</b-nav-item>
+					        <b-nav-item href="#">ABOUT</b-nav-item>
+					        <b-nav-item href="#">JOBS</b-nav-item>
+					      </b-navbar-nav>
+					  </b-navbar>
+				</div>
+				<div class="copyRights float-left">
+					<p>Copyright© 2020</p>
+				</div>
+				<div class="socialMedia float-right">
+					<p>Follow Us</p>
+					<b-img src="img/001-facebook@2x.png" alt="facebook"></b-img>
+					<b-img src="img/002-twitter@2x.png" alt="twitter"></b-img>
+					<b-img src="img/003-linkedin@2x.png" alt="linkedin"></b-img>
+					<b-img src="img/005-instagram@2x.png" alt="instagram"></b-img>
+				</div>
+			</b-col>
+		</b-row>
+	</b-container>
+</body>
+</html>

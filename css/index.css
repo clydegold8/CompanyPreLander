@@ -1,0 +1,1084 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('font/Rubik-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Rubik-Medium';
+  src: url('font/Rubik-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Oswald-Bold';
+  src: url('font/Oswald-Bold.ttf') format('truetype');
+}
+
+body{
+	font-family:'Rubik';
+	background-color: #f4f4fa;
+}
+div.header-bg{
+	background-image:url("../img/oval-copy.png"),url("../img/background-img.png");
+	background-repeat: no-repeat;
+	background-size: 312px 216px, 100%;
+    /*height: 894px;*/
+}
+div.col nav.navbar.navbar-light.bg-faded.navbar-expand{
+	margin-top: 38px;
+    padding-top: 0px;
+}
+
+ul.navbar-nav.ml-auto{
+	margin-right:165px;
+}
+ul.navbar-nav.ml-auto li{
+	font-family:'Rubik-Medium';
+	font-size: 14px;
+  	font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.31px;
+}
+ul.navbar-nav.ml-auto li.nav-item:nth-child(1),li.nav-item:nth-child(2),li.nav-item:nth-child(3),li.nav-item:nth-child(4){
+	margin-right:60px;
+}
+ul.navbar-nav.ml-auto li.nav-item:nth-child(2) a.nav-link,li.nav-item:nth-child(3) a.nav-link,li.nav-item:nth-child(4) a.nav-link{
+	color: #220f3e;
+}
+ul.navbar-nav.ml-auto li.nav-item:nth-child(1),li.nav-item:nth-child(2),li.nav-item:nth-child(3),li.nav-item:nth-child(4),li.nav-item:nth-child(5){
+	padding-top: 14px;
+    padding-bottom: 13px;
+}
+ul.navbar-nav.ml-auto li.nav-item:nth-child(5){
+	background-color: #ff9e08;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+ul.navbar-nav.ml-auto li.nav-item a.nav-link:hover{
+	color: #ff9e08;
+}
+ul.navbar-nav.ml-auto li.nav-item:nth-child(5) a.nav-link{
+	color: #ffffff;
+}
+ul.navbar-nav.ml-auto li.nav-item:nth-child(1) a.nav-link{
+	color: #ff9e08;
+}
+a.navbar-brand{
+	margin-left: 165px;
+}
+div.headingOne.col-12{
+	margin-top: 202px;
+}
+div.headingOne.col-12 div.containerBubble{
+	margin-left: 195px;
+	font-family: Rubik-Medium;
+   font-size: 12px;
+   font-weight: 500;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: center;
+   color: #220f3e;
+   background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(133, 143, 175, 0.1);
+  width: 184px;
+  height: 26px;
+  border-radius: 13px;
+  line-height: 26px;
+}
+div.headingOne.col-12 span.helloBubble{
+	font-family: Rubik-Medium;
+   font-size: 12px;
+   font-weight: 500;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: center;
+   background-color: #ff9e08;
+   margin-right: 8px;
+}
+div.headingTwo.col-12{
+	margin-top: 16px;
+	margin-bottom: 40px;
+}
+div.headingTwo.col-12 h1{
+	font-family: Oswald-Bold;
+	font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  color: #220f3e;
+  margin-left: 195px;
+}
+div.col-12 div.gradLine{
+	width: 165px;
+    height: 4px;
+    margin-left: 195px;
+    margin-bottom: 40px;
+	background: rgb(187,0,196);
+	background: -moz-linear-gradient(271deg, rgba(187,0,196,1) -5%, rgba(0,227,249,1) 100%);
+	background: -webkit-linear-gradient(271deg, rgba(187,0,196,1) -5%, rgba(0,227,249,1) 100%);
+	background: linear-gradient(271deg, rgba(187,0,196,1) -5%, rgba(0,227,249,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bb00c4",endColorstr="#00e3f9",GradientType=1);
+}
+div.col-12.headingThree{
+	margin-bottom: 302px;
+}
+div.col-12.headingThree p{
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #303030;
+  margin-left: 195px;
+}
+div.col-12.brandContainer div{
+	background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    border-radius: 8px;
+  	box-shadow: 14px 20px 54px 0 rgba(133, 143, 175, 0.1);
+    margin-top: -75px;
+    margin-bottom: 60px;
+}
+div.col-12.brandContainer div img{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+div.col-12.brandContainer div img:nth-child(1){
+	width: 64px;
+	height: 65px; 
+	margin-right: 124px; 
+}
+div.col-12.brandContainer div img:nth-child(2){
+	width: 65px;
+	height: 65px;
+	margin-right: 124px; 
+}
+div.col-12.brandContainer div img:nth-child(3){
+	width: 55px;
+	height: 65px;
+	margin-right: 124px; 
+}
+div.col-12.brandContainer div img:nth-child(4){
+	width: 65px;
+	height: 51px;
+	margin-right: 124px; 
+}
+div.col-12.brandContainer div img:nth-child(5){
+	width: 65px;
+	height: 48px;
+}
+div.col-12.brandContainer hr,div.col-12 hr{
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-bottom: 79px;
+}
+div.col-12.servicesContainer h2, div.col-12.teamHeading h2{
+	font-family: Rubik-Medium;
+	font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-align: center;
+  color: #220f3e;
+  margin-bottom: 24px;
+}
+div.col-12.servicesContainer p,div.col-12.teamHeading p{
+	  font-size: 18px;
+	  font-weight: normal;
+	  font-stretch: normal;
+	  font-style: normal;
+	  line-height: 1.56;
+	  letter-spacing: normal;
+	  text-align: center;
+	  color: #8b8b8b;
+	  margin-bottom: 60px;
+}
+div.col-5.servicesImage{
+	    padding-left: 0px;
+}
+div.col-5.servicesImage img{
+	    width: 100%;
+}
+div.col-6.servicesCards div.card-columns{
+    	column-count: auto; 
+}
+div.col-6.servicesCards div.card-columns article:nth-child(1){
+	margin-right: 24px;
+}
+
+div.col-6.servicesCards div.card-columns article:nth-child(3){
+	margin-right: 24px;
+	margin-top: 24px;
+}
+div.col-6.servicesCards div.card-columns article:nth-child(4){
+	margin-top: 24px;
+}
+
+div.col-6.servicesCards div.card-columns article:nth-child(1) img{
+    width: 65px;
+    height: 75px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+div.col-6.servicesCards div.card-columns article:nth-child(2) img{
+    width: 88px;
+    height: 75px;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 19px;
+}
+div.col-6.servicesCards div.card-columns article:nth-child(3) img{
+    width: 89px;
+    height: 75px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+div.col-6.servicesCards div.card-columns article:nth-child(4) img{
+    width: 110px;
+    height: 75px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+div.col-6.servicesCards div.card-columns{
+	padding-top:5px;
+}
+div.col-6.servicesCards div.card-columns article.card{
+    margin-bottom: auto;
+    padding: 13px;
+}
+
+
+div.col-6.servicesCards div.card-columns article div.card-body h4.card-title {
+ font-family: Rubik-Medium;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2c2c2c;
+}
+div.col-6.servicesCards div.card-columns article div.card-body p.card-text{
+ font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8b8b8b;
+}
+div.servicesImage,div.servicesCards{
+    margin-bottom: 80px;
+}
+div.col-12.formCover h2{
+  font-family: Rubik-Medium;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-align: center;
+  color: #220f3e;
+  margin-bottom: 24px;
+}
+
+div.col-12.formCover p{
+    margin-right: 260px;
+    margin-left: 260px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8b8b8b;
+}
+
+div.col-12.formCover p:nth-child(3){
+	margin-top: 35px;
+	margin-bottom: 60px;
+}
+div.col-10.contactForm{
+	background-color: #ffffff;
+   border-radius: 8px;
+   box-shadow: 14px 20px 54px 0 rgba(133, 143, 175, 0.1);
+}
+div.col-10.contactForm form{
+	margin-top: 60px;
+	margin-left: 165px;
+	margin-bottom: 180px;
+}
+div.col-10.contactForm form input{
+	border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+}
+div.col-10.contactForm form label{
+  font-family: Rubik-Medium;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #220f3e;
+}
+
+div.col-10.contactForm form div textarea{
+	overflow-y: auto !important;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+}
+
+div.col-10.contactForm form div.valid-feedback,div.col-10.contactForm form div.invalid-feedback{
+	margin-bottom: 21px;
+}
+
+div.col-10.contactForm form div.inputArea:nth-child(2),div.col-10.contactForm form div.inputArea:nth-child(3){
+	margin-top: 38px;
+}
+div.col-10.contactForm form div.inputArea:nth-child(3){
+	margin-bottom: 24px;
+}
+div.col-10.contactForm{
+	padding-right: 476px;
+	margin-bottom: 80px;
+}
+div.col-2.mapBox{
+	margin-bottom: 80px;
+}
+div.col-10.contactForm form button.contactSubmit.disabled{
+	cursor: not-allowed;
+}
+div.col-10.contactForm form button.contactSubmit{
+  border-radius: 4px;
+  background-color: #ff9e08;
+font-family: Rubik-Medium;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.31px;
+  color: #ffffff;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-color: transparent;
+}
+.form-control.is-invalid:focus,.form-control.is-valid:focus{
+	box-shadow: none;
+}
+div.col-2 div.map-container{
+    margin-left: -440px;
+}
+div.col-2 div.map-container img{
+	width: 590px;
+    padding: 32px;
+}
+div.col-12.teamMembers div.card-columns{
+	column-count: auto; 
+	margin-right: 165px;
+	margin-left: 165px;
+}
+div.col-12.teamMembers div.card-columns article{
+	margin-right: 17px;
+	border-radius: 10px;
+}
+div.col-12.teamMembers div.card-columns article img.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+div.col-12.teamMembers div.card-columns article:nth-child(4),div.col-12.teamMembers div.card-columns article:nth-child(8){
+	margin-right: 0px;
+}
+div.subcribeContainer div.subcribeBox{
+	margin-left: 165px;
+	margin-right: 165px;
+	background-color: #ffffff;
+	padding: 48px;
+	border-radius: 8px;
+}
+
+div.subcribeContainer div.subcribeBox form label{
+  font-family: Rubik-Medium;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  color: #220f3e;
+  margin-bottom: 32px;
+}
+div.subcribeContainer div.subcribeBox form input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    width: 45%;
+}
+div.subcribeContainer{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+div.inputAreaRight button.subcribeSubmit.disabled{
+	cursor: not-allowed;
+}
+
+div.inputAreaRight button.subcribeSubmit{
+  	border-radius: 4px;
+  	background-color: #ff9e08;
+  	 font-family: Rubik-Medium;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.31px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 39.5px;
+  padding-left: 39.5px;
+  border-color: transparent;
+  margin-top: 35px;
+}
+
+div.subcribeContainer div.subcribeBox form div.confirmationBox{
+    margin-top: 20px;
+}
+
+div.footerContainer{
+    background-image: linear-gradient(to bottom, #ffaf35 0%, #ff7c11, #ff7d10);
+	padding-bottom: 43px;
+}
+
+div.footerContainer div.footerArea nav a img{
+	width: 208px;
+	margin-top: 40px;
+}
+div.footerContainer div.footerArea nav ul.navbar-nav.ml-auto li.nav-item a.nav-link{
+	color: #ffffff;
+    margin-top: 54px;
+}
+div.footerContainer div.copyRights{
+	font-family: Rubik;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  color: #ffffff;
+  margin-top: 80px;
+  margin-left: 190px;
+}
+div.footerContainer div.socialMedia p{
+	    display: inline-block;
+	    font-family: Rubik;
+	  font-size: 12px;
+	  font-weight: normal;
+	  font-stretch: normal;
+	  font-style: normal;
+	  line-height: normal;
+	  letter-spacing: 1.12px;
+	  color: #ffffff;
+	  margin-right: 16px;
+}
+div.footerContainer div.socialMedia{
+	    margin-right: 235px;
+        margin-top: 70px;
+}
+div.footerContainer div.socialMedia img{
+	width: 20px;
+	margin-right: 8px;
+}
+
+@media only screen and (max-width: 1820px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 180px;
+	}
+}
+
+@media only screen and (max-width: 1690px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 283px;
+	}
+}
+
+@media only screen and (max-width: 1536px) {
+	div.col-12.teamMembers div.card-columns{
+		padding-left: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 1502px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 160px;
+	}
+}
+
+@media only screen and (max-width: 1393px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 128px;
+	}
+}
+
+@media only screen and (max-width: 1362px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 100px;
+	}
+}
+
+@media only screen and (max-width: 1334px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 70px;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 45px;
+	}
+}
+
+@media only screen and (max-width: 1279px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 35px;
+	}
+}
+
+@media only screen and (max-width: 1269px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 15px;
+	}
+}
+
+@media only screen and (max-width: 1249px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 1209px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 155px;
+	}
+}
+
+@media only screen and (max-width: 1096px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 95px;
+	}
+}
+
+@media only screen and (max-width: 1036px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 65px;
+	}
+}
+
+@media only screen and (max-width: 1006px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 30px;
+	}
+}
+
+@media only screen and (max-width: 981px) {
+	div.col-12.teamMembers div.card-columns{
+    	padding-left: 40px;
+	}
+
+	div.col-12.teamMembers div.card-columns article{
+	    max-width: 30rem !important;
+	}
+}
+
+@media only screen and (max-width: 1512px) {
+	div.col-12.brandContainer div{
+        margin-top: -132px;
+	}
+}
+
+@media only screen and (max-width: 1440px) {
+	div.col-12.brandContainer div{
+        margin-top: -175px;
+	}
+}
+
+@media only screen and (max-width: 1352px) {
+	div.col-12.brandContainer div{
+        margin-top: -225px;
+	}
+}
+
+@media only screen and (max-width: 1312px) {
+	div.col-12.brandContainer div{
+        margin-top: -105px;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	div.col-12.brandContainer div img{
+        margin-right: 100px !important;
+	}
+
+	div.col-12.brandContainer div img:nth-child(5){
+		margin-right: 0px !important;
+	}
+}
+
+@media only screen and (max-width: 1222px) {
+	div.col-12.brandContainer div{
+        margin-top: -164px;
+	}
+}
+
+@media only screen and (max-width: 1160px) {
+	div.col-12.brandContainer div img{
+        margin-right: 70px !important;
+	}
+
+	div.col-12.brandContainer div img:nth-child(5){
+		margin-right: 0px !important;
+	}
+
+	div.col-12.brandContainer div{
+        margin-top: -200px;
+	}
+}
+
+@media only screen and (max-width: 1075px) {
+	div.col-12.brandContainer div img{
+        margin-right: 60px !important;
+	}
+
+	div.col-12.brandContainer div img:nth-child(5){
+		margin-right: 0px !important;
+	}
+
+	div.col-12.brandContainer div{
+        margin-top: -255px;
+	}
+}
+
+@media only screen and (max-width: 1395px) {
+	div.servicesCards{
+      padding:0px !important;
+	}
+}
+
+@media only screen and (max-width: 1335px) {
+	div.col-6.servicesCards div.card-columns article.card{
+      	padding: 19px !important;
+	}
+	div.col-6.servicesCards div.card-columns article:nth-child(1){
+	    margin-right: 10px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article:nth-child(3){
+	    margin-right: 10px !important;
+    	margin-top: 10px !important;
+	}
+	div.col-6.servicesCards div.card-columns article:nth-child(4){
+	    margin-top: 10px !important;
+	}
+}
+
+@media only screen and (max-width: 1315px) {
+	a.navbar-brand{
+		margin-left: 0px !important;
+	}
+	ul.navbar-nav.ml-auto{
+	    margin-right: 0px !important;
+	}
+
+	div.headingOne.col-12{
+		margin-top: 55px !important;
+	}
+
+	div.headingOne.col-12 div.containerBubble{
+	    margin-left: 100px !important;
+	}
+
+	div.headingTwo.col-12 h1{
+        margin-left: 110px !important;
+	}
+
+	div.col-12 div.gradLine{
+        margin-left: 120px !important;	
+	}
+
+	div.col-12.headingThree p{
+        margin-left: 120px !important;
+	}
+}
+
+@media only screen and (max-width: 1307px) {
+	div.col-6.servicesCards div.card-columns article.card{
+  	    padding: 5px !important;
+	}
+	div.col-6.servicesCards div.card-columns article:nth-child(1){
+	    margin-right: 5px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article:nth-child(2) img{
+	    margin-top: 50px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article:nth-child(3){
+	    margin-right: 5px !important;
+    	margin-top: 5px !important;
+	}
+	div.col-6.servicesCards div.card-columns article:nth-child(4){
+	    margin-top: 5px !important;
+	}
+}
+
+@media only screen and (max-width: 1297px) {
+	div.col-6.servicesCards div.card-columns article.card{
+  	    padding: 1px !important;
+	}
+	div.col-6.servicesCards div.card-columns article:nth-child(1){
+	    margin-right: 1px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article:nth-child(3){
+	    margin-right: 1px !important;
+	}
+}
+
+@media only screen and (max-width: 1289px) {
+	div.col-6.servicesCards div.card-columns article.card{
+		max-width: 15rem !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article:nth-child(1) img{
+		margin-top: 51px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article:nth-child(4) img{
+		    margin-top: 56px !important;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	div.col-6.servicesCards div.card-columns{
+    	padding-left: 85px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article:nth-child(1) img{
+	    margin-top: 69px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article.card{
+		max-width: 25rem !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article:nth-child(1){
+		margin-right: 20px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article:nth-child(3){
+		margin-right: 20px !important;
+	    margin-top: 20px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article:nth-child(3) img{
+	    margin-top: 56px;
+	}
+	div.col-6.servicesCards div.card-columns article:nth-child(4){
+		margin-top: 20px !important;
+	}
+
+	div.col-6.servicesCards.col-lg-6{
+		flex: none !important;
+    	max-width: 100% !important;
+	}
+
+	div.col-12.brandContainer div img{
+        margin-right: 40px !important;
+	}
+
+	div.col-12.brandContainer div img:nth-child(5){
+		margin-right: 0px !important;
+	}
+
+	div.col-12.brandContainer div{
+        margin-top: -295px;
+	}
+
+	div.col-5.servicesImage,div.col-1.servicesImage{
+		display: none !important;
+	}
+	div.servicesCards.col-1{
+		display: none !important;
+	}
+
+	div.col-12.brandContainer hr, div.col-12 hr{
+		    margin-bottom: 40px !important;
+	}
+	ul.navbar-nav.ml-auto li.nav-item:nth-child(1), li.nav-item:nth-child(2), li.nav-item:nth-child(3), li.nav-item:nth-child(4){
+		    margin-right: 0px !important;
+	}	
+
+}
+
+@media only screen and (max-width: 915px) {
+	div.col-6.servicesCards div.card-columns{
+    	padding-left: 45px !important;
+	}
+}
+
+@media only screen and (max-width: 890px) {
+	div.col-6.servicesCards div.card-columns{
+		padding-left: 215px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article.card{
+    	max-width: 30em !important;
+    	margin-right: 0px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article:nth-child(1){
+	    margin-bottom: 20px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article img,div.col-6.servicesCards div.card-columns article:nth-child(1) img,div.col-6.servicesCards div.card-columns article:nth-child(2) img,div.col-6.servicesCards div.card-columns article:nth-child(3) img,div.col-6.servicesCards div.card-columns article:nth-child(4) img{
+    	margin-top: 15px !important;
+    	height: auto;
+    	width: 110px
+	}
+
+	div.col-6.servicesCards div.card-columns article div.card-body h4.card-title{
+    	font-size: 30px;
+	}
+
+	div.col-6.servicesCards div.card-columns article div.card-body p.card-text{
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 753px) {
+
+	div.headingOne.col-12{
+		margin-top: 10px !important;
+	}
+
+	div.headingOne.col-12 div.containerBubble{
+	    margin: 0px auto !important;
+	}
+
+	div.headingTwo.col-12 h1{
+    	margin: 0 auto !important;
+	}
+
+	div.col-12 div.gradLine{
+		margin: 0 auto !important;
+	}
+
+	div.col-12.headingThree p{
+		margin: 0 auto !important;
+	}
+
+	div.header-bg{
+	    text-align: center;
+    	background-image: none;
+	}
+	div.col-12.headingThree{
+	    margin-bottom: 50px;
+	}
+
+	div.col-12.brandContainer div{
+    	margin-top: 0px;
+	    margin: 0 auto;
+	}
+
+
+	div.col-6.servicesCards div.card-columns{
+	    padding-left: 10px !important;
+    	padding-right: 10px !important;
+	}
+
+	div.col-6.servicesCards div.card-columns article.card{
+		max-width: 100% !important;
+	}
+
+	div.col-12.teamMembers div.card-columns{
+		padding-left: 0px !important;
+    	margin-left: 5px !important;
+    	margin-right: 5px !important;
+	}
+
+	div.col-12.teamMembers div.card-columns article.card{
+	    max-width: 100% !important;
+	}
+
+	div.servicesCards{
+	    margin-bottom: 40px;
+	}
+
+	div.col-12.formCover h2{
+		font-size: 45px;
+	}
+
+	div.col-12.formCover p{
+	    margin-right: 5px;
+	    margin-left: 5px;
+	    font-size: 25px;
+	}
+
+	div.col-6.servicesCards div.card-columns article div.card-body p.card-text{
+		font-size: 25px;
+	}
+
+	div.col-6.servicesCards div.card-columns article div.card-body h4.card-title{
+	    font-size: 35px;
+	}
+
+	div.col-12.servicesContainer h2, div.col-12.teamHeading h2{
+	    font-size: 45px;
+	}
+
+	div.col-12.servicesContainer p, div.col-12.teamHeading p{
+		font-size: 25px;
+	}
+
+	div.col-10.contactForm form label{
+		font-size: 35px !important;
+	}
+
+	div.col-10.contactForm form input{
+	    font-size: 25px !important;
+	}
+
+	div.col-10.contactForm form div textarea{
+		font-size: 25px !important;
+	}
+
+	div.col-10.contactForm form button.contactSubmit{
+		float: unset !important;
+	    width: 100%;
+	    padding-top: 25px !important;
+	    padding-bottom: 25px !important;
+	    font-size: 30px;
+	}
+	div.col-10.contactForm form{
+	    margin-bottom: 50px;
+	}
+
+	div.col-2.mapBox{
+	    margin-bottom: 20px;
+	}
+
+	div.subcribeContainer{
+	    margin-top: 30px;
+    	margin-bottom: 30px;
+	}
+
+	div.subcribeContainer div.subcribeBox{
+	    margin-right: 5px;
+	    margin-left: 5px;
+	    padding: 20px;
+	}
+
+	div.subcribeContainer div.subcribeBox form label{
+	    font-size: 45px;
+	}
+
+	div.subcribeContainer div.subcribeBox form input{
+		width: 100%;
+		font-size: 20px;
+	}
+
+	div.inputAreaRight button.subcribeSubmit{
+	    width: 100%;
+    	padding: 10%;
+	}
+
+	div.footerContainer div.copyRights{
+		margin: 0px;
+	    margin-top: 10px;
+	    margin-left: 35px;
+	}
+
+	div.footerContainer div.socialMedia{
+		margin: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 575px) {
+	div.col-10.contactForm{
+	    flex: auto;
+    	max-width: 100%;
+	}
+	div.col-2.mapBox{
+	    flex: auto;
+    	max-width: 100%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+
+	#nav-collapse.navbar-collapse.collapse{
+		position: absolute;
+	    top: 60px;
+	    width: 100%;
+	    right: -3px;
+	    background: rgb(255, 255, 255);
+	    z-index: 9999;
+	    padding: 10px;
+	}
+
+	div.col-10.contactForm{
+		padding-right: 30px !important;
+		margin-bottom: 5px !important;
+	}
+
+	div.col-10.contactForm form{
+		margin-left: 10px !important;
+	}
+
+	div.col-2 div.map-container{
+	 	margin-left: 0px !important;
+	}
+
+	div.col-2 div.map-container img{
+		    width: 100% !important;
+	}
+
+}
+
+
